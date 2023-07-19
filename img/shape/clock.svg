@@ -1,0 +1,10 @@
+<svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="illustrations/clock" clip-path="url(#clip0_217_5173)">
+<path id="shape" fill-rule="evenodd" clip-rule="evenodd" d="M0.5 35.5C0.5 54.8 16.2 70.5 35.5 70.5C54.8 70.5 70.5 54.8 70.5 35.5C70.5 16.2 54.8 0.5 35.5 0.5C16.2 0.5 0.5 16.2 0.5 35.5ZM5.5 35.5C5.5 19 19 5.5 35.5 5.5C52 5.5 65.5 19 65.5 35.5C65.5 52 52 65.5 35.5 65.5C19 65.5 5.5 52 5.5 35.5ZM38 33.0001V11.1001C50.4 12.4001 60 22.8001 60 35.5001C60 49.0001 49 60.0001 35.5 60.0001C22 60.0001 11 49.0001 11 35.5001C11 22.8001 20.6 12.4001 33 11.1001V38.0001H53V33.0001H38Z" fill="#A2A9B1"/>
+</g>
+<defs>
+<clipPath id="clip0_217_5173">
+<rect width="71" height="71" fill="white"/>
+</clipPath>
+</defs>
+</svg>
