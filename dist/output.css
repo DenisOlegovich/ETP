@@ -1451,17 +1451,30 @@ h2 {
     "mck-winter-text .";
 }
 
-.carharing-grid {
+.carsh-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
-  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
+    "station-text ."
+    "station ."
+    "station-subtext ."
+    "vagon statistic-vagon"
+    "vagon-text ."
+    "mck statistic-mck"
+    "mck-text ."
+    "mck-winter statistic-mck-winter"
+    "mck-winter-text .";
+}
+/* .carharing-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
   gap: 24px;
   grid-template-areas:
     "carsharing-heading ."
     "carsharing statistic-carsharing"
     "carsharing-text .";
-}
-
+} */
 .taxi-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
@@ -1691,7 +1704,7 @@ h2 {
       "statistic-mck-winter statistic-mck-winter"
       "mck-winter-text mck-winter-text";
   }
-  .carharing-grid {
+  .carsh-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-auto-rows: 200px;*/
