@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -42,9 +42,11 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -85,7 +87,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -129,7 +131,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -220,9 +223,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -269,7 +272,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -354,7 +357,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -422,7 +426,9 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -432,19 +438,19 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -452,24 +458,24 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
@@ -482,19 +488,19 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -502,24 +508,24 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 .container {
@@ -827,7 +833,7 @@ video {
 body {
   /*font-family: MoscowSanse;*/
   font-size: 20px;
-  background: #F5F6F7;
+  background: #f5f6f7;
 }
 
 .none {
@@ -877,6 +883,14 @@ h2 {
   margin-top: 24px;
 }
 
+.heading-h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+  margin-bottom: 48px;
+  color: #666f78;
+}
+
 .card {
   color: #000;
   font-size: 20px;
@@ -923,7 +937,8 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../img/shape/terminal.svg") left bottom 20px / 60% no-repeat, #0072BC;
+  background: url("../img/shape/terminal.svg") left bottom 20px / 60% no-repeat,
+    #0072bc;
   z-index: -1;
 }
 
@@ -946,7 +961,8 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../img/shape/rjd.svg") right bottom 10px / 60% no-repeat, #DA2032;
+  background: url("../img/shape/rjd.svg") right bottom 10px / 60% no-repeat,
+    #da2032;
   z-index: -1;
 }
 
@@ -956,7 +972,7 @@ h2 {
 
 .bus {
   border-radius: 8px;
-  background: url("../img/bus.jpg") right bottom / 80% no-repeat, #007DBD;
+  background: url("../img/bus.jpg") right bottom / 80% no-repeat, #007dbd;
 }
 
 .bus h5 {
@@ -978,7 +994,7 @@ h2 {
   top: 10px;
   position: absolute;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -989,14 +1005,14 @@ h2 {
 .map-text {
   background: white;
   -webkit-clip-path: ellipse(80% 50% at center);
-          clip-path: ellipse(80% 50% at center);
+  clip-path: ellipse(80% 50% at center);
 }
 
 .white-frame {
   width: 150%;
   height: 150%;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   position: absolute;
   left: 50%;
   top: 0;
@@ -1005,7 +1021,7 @@ h2 {
 
 .troika {
   border-radius: 8px;
-  background-color: #0DA4BF;
+  background-color: #0da4bf;
   position: relative;
 }
 
@@ -1021,7 +1037,7 @@ h2 {
 
 .ticket-container {
   border-radius: 8px;
-  background: #0DA4BF;
+  background: #0da4bf;
   position: relative;
   /*overflow: hidden;*/
 }
@@ -1042,7 +1058,7 @@ h2 {
 
 .night-way {
   border-radius: 8px;
-  background: #10225C;
+  background: #10225c;
   position: relative;
 }
 
@@ -1094,7 +1110,7 @@ h2 {
 
 .parking {
   border-radius: 8px;
-  background: #68AD45;
+  background: #68ad45;
   position: relative;
 }
 
@@ -1110,7 +1126,7 @@ h2 {
 
 .velobike {
   border-radius: 8px;
-  background: #3DD5AF;
+  background: #3dd5af;
   box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
   /*position: relative;*/
   display: flex;
@@ -1127,7 +1143,7 @@ h2 {
 
 .scooter {
   border-radius: 8px;
-  background: #FF6B00;
+  background: #ff6b00;
   box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
   /*position: relative;*/
   display: flex;
@@ -1145,7 +1161,7 @@ h2 {
 .carsharing {
   /*height: 420px;*/
   border-radius: 8px;
-  background: #FF6B00;
+  /* background: #ff6b00; */
   box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
   position: relative;
 }
@@ -1167,7 +1183,7 @@ h2 {
 
 .mobile-img {
   position: absolute;
-  bottom:0;
+  bottom: 0;
 }
 
 .mobile-application h5 {
@@ -1176,14 +1192,14 @@ h2 {
 
 .alexandra {
   border-radius: 8px;
-  background: #DA2032;
+  background: #da2032;
   box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
   position: relative;
 }
 
 .alexandra-img {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   right: 0;
 }
 
@@ -1220,7 +1236,7 @@ h2 {
   gap: 7px;
   width: auto;
   -webkit-text-decoration: underline rgba(0, 0, 0, 0.2);
-          text-decoration: underline rgba(0, 0, 0, 0.2);
+  text-decoration: underline rgba(0, 0, 0, 0.2);
   text-underline-offset: 4px;
 }
 
@@ -1265,7 +1281,7 @@ h2 {
   line-height: 22px;
   padding-left: 136px;
 }
-.inscription-img{
+.inscription-img {
   margin-top: 24px;
 }
 .text-page {
@@ -1360,7 +1376,7 @@ h2 {
 }
 
 .head-text {
-  color: #666F78;
+  color: #666f78;
   /* desktop/Lead */
   /*font-family: MoscowSans;*/
   font-size: 28px;
@@ -1398,10 +1414,10 @@ h2 {
 .bordered-field {
   font-size: 22px;
   border-radius: 12px;
-  border: solid 4px #F3E95E;
+  border: solid 4px #f3e95e;
 }
 
-.bordered-field legend{
+.bordered-field legend {
   margin: 0 15px;
 }
 
@@ -1435,6 +1451,17 @@ h2 {
     "mck-winter-text .";
 }
 
+.carharing-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
+    "carsharing-heading ."
+    "carsharing statistic-carsharing"
+    "carsharing-text .";
+}
+
 .taxi-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
@@ -1450,7 +1477,7 @@ h2 {
 
 .yellow-border-box {
   border-radius: 8px;
-  border: 4px solid #F3E95E;
+  border: 4px solid #f3e95e;
   padding: 23px;
 }
 
@@ -1497,9 +1524,9 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 250px);
     grid-template-areas:
-        "taxi rjd metro"
-        "taxi bus bus"
-        "map map map";
+      "taxi rjd metro"
+      "taxi bus bus"
+      "map map map";
   }
 
   .second-section-grid {
@@ -1507,11 +1534,11 @@ h2 {
     grid-template-columns: 1fr 0.5fr 0.5fr;
     grid-template-rows: repeat(4, 210px) repeat(1, 280px);
     grid-template-areas:
-        "troika ticket ticket"
-        "troika night night"
-        "parking velobike scooter"
-        "parking carsh carsh"
-        "mobile mobile mobile";
+      "troika ticket ticket"
+      "troika night night"
+      "parking velobike scooter"
+      "parking carsh carsh"
+      "mobile mobile mobile";
   }
 
   .forth-section-grid {
@@ -1521,8 +1548,8 @@ h2 {
     grid-auto-rows: 200px;
     gap: 24px;
     grid-template-areas:
-        "alexandra info"
-        "alexandra .";
+      "alexandra info"
+      "alexandra .";
   }
 
   .passenger-terminal-grid {
@@ -1531,10 +1558,10 @@ h2 {
     /*grid-auto-rows: 198px;*/
     gap: 24px;
     grid-template-areas:
-        "airport"
-        "text-first"
-        "text-second"
-        "text-third";
+      "airport"
+      "text-first"
+      "text-second"
+      "text-third";
   }
 
   .timetable-grid {
@@ -1543,26 +1570,26 @@ h2 {
     /*grid-auto-rows: 200px;*/
     gap: 20px;
     grid-template-areas:
-        "head head"
-        "validator validator"
-        "validator-text validator-text"
-        "statistic-validator statistic-validator"
-        "trolley trolley"
-        "trolley-text trolley-text"
-        "statistic-trolley statistic-trolley"
-        "avtobus salon"
-        "avtobus-text avtobus-text"
-        "statistic-avtobus statistic-avtobus"
-        "avtobus-link avtobus-link"
-        "avtobus-night avtobus-night"
-        "avtobus-night-text avtobus-night-text"
-        "statistic-avtobus-night statistic-avtobus-night"
-        "avtobus-night-link avtobus-night-link"
-        "avtobus-morning avtobus-morning"
-        "avtobus-morning-text avtobus-morning-text"
-        "statistic-avtobus-morning statistic-avtobus-morning"
-        "avtobus-morning-link avtobus-morning-link"
-        "clock-avtobus-morning .";
+      "head head"
+      "validator validator"
+      "validator-text validator-text"
+      "statistic-validator statistic-validator"
+      "trolley trolley"
+      "trolley-text trolley-text"
+      "statistic-trolley statistic-trolley"
+      "avtobus salon"
+      "avtobus-text avtobus-text"
+      "statistic-avtobus statistic-avtobus"
+      "avtobus-link avtobus-link"
+      "avtobus-night avtobus-night"
+      "avtobus-night-text avtobus-night-text"
+      "statistic-avtobus-night statistic-avtobus-night"
+      "avtobus-night-link avtobus-night-link"
+      "avtobus-morning avtobus-morning"
+      "avtobus-morning-text avtobus-morning-text"
+      "statistic-avtobus-morning statistic-avtobus-morning"
+      "avtobus-morning-link avtobus-morning-link"
+      "clock-avtobus-morning .";
   }
 
   .taxi-img {
@@ -1596,7 +1623,7 @@ h2 {
 
   .troika-img {
     transform: scale(1.2);
-    left: 140px
+    left: 140px;
   }
 
   .proezdnoy {
@@ -1651,18 +1678,37 @@ h2 {
     /*grid-auto-rows: 200px;*/
     gap: 20px;
     grid-template-areas:
-        "station-text station-text"
-        "station station"
-        "station-subtext station-subtext"
-        "vagon vagon"
-        "statistic-vagon statistic-vagon"
-        "vagon-text vagon-text"
-        "mck mck"
-        "statistic-mck statistic-mck"
-        "mck-text mck-text"
-        "mck-winter mck-winter"
-        "statistic-mck-winter statistic-mck-winter"
-        "mck-winter-text mck-winter-text";
+      "station-text station-text"
+      "station station"
+      "station-subtext station-subtext"
+      "vagon vagon"
+      "statistic-vagon statistic-vagon"
+      "vagon-text vagon-text"
+      "mck mck"
+      "statistic-mck statistic-mck"
+      "mck-text mck-text"
+      "mck-winter mck-winter"
+      "statistic-mck-winter statistic-mck-winter"
+      "mck-winter-text mck-winter-text";
+  }
+  .carharing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
+      "station-text station-text"
+      "station station"
+      "station-subtext station-subtext"
+      "vagon vagon"
+      "statistic-vagon statistic-vagon"
+      "vagon-text vagon-text"
+      "mck mck"
+      "statistic-mck statistic-mck"
+      "mck-text mck-text"
+      "mck-winter mck-winter"
+      "statistic-mck-winter statistic-mck-winter"
+      "mck-winter-text mck-winter-text";
   }
 
   .station-img {
@@ -1691,13 +1737,13 @@ h2 {
     /*grid-auto-rows: 200px;*/
     gap: 24px;
     grid-template-areas:
-        "head"
-        "yellow-taxi"
-        "statistic-yellow-taxi"
-        "yellow-taxi-text"
-        "yellow-taxi-subtext"
-        "yellow-box-statistic"
-        "yellow-taxi-bottomtext";
+      "head"
+      "yellow-taxi"
+      "statistic-yellow-taxi"
+      "yellow-taxi-text"
+      "yellow-taxi-subtext"
+      "yellow-box-statistic"
+      "yellow-taxi-bottomtext";
   }
 
   .yellow-taxi-img {
@@ -1706,45 +1752,74 @@ h2 {
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  .heading-h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .heading-h3 {
+    font-size: 20px;
+    line-height: 26px; /* 128.571% */
+    margin-bottom: 24px;
+  }
+  .text-fact {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .fact {
+    font-size: 26px;
+    line-height: 18px;
+  }
+  .text-page {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
   .first-section-grid {
     gap: 16px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 150px) repeat(2, 315px);
     grid-template-areas:
-        "taxi"
-        "rjd"
-        "metro"
-        "bus"
-        "map";
+      "taxi"
+      "rjd"
+      "metro"
+      "bus"
+      "map";
   }
 
   .second-section-grid {
     gap: 16px;
     grid-template-columns: 1fr;
     /*grid-template-rows: repeat(1, 150px) repeat(1, 200px) repeat(1, 150px) repeat(1, 320px) repeat(2, 150px) repeat(1, 312px);*/
-    grid-template-rows: 150px 200px 150px 320px repeat(2, 150px) repeat(2, 312px);
+    grid-template-rows: 150px 200px 150px 320px repeat(2, 150px) repeat(
+        2,
+        312px
+      );
     grid-template-areas:
-        "troika"
-        "ticket"
-        "night"
-        "parking"
-        "scooter"
-        "velobike"
-        "carsh"
-        "mobile";
+      "troika"
+      "ticket"
+      "night"
+      "parking"
+      "scooter"
+      "velobike"
+      "carsh"
+      "mobile";
   }
 
   .third-section-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1, 150px) repeat(1, 150px) repeat(1, 320px) repeat(1, 320px);
+    grid-template-rows: repeat(1, 150px) repeat(1, 150px) repeat(1, 320px) repeat(
+        1,
+        320px
+      );
     gap: 16px;
     grid-template-areas:
-        "scooter"
-        "velobike"
-        "carsh"
-        "mobile";
+      "scooter"
+      "velobike"
+      "carsh"
+      "mobile";
   }
 
   .forth-section-grid {
@@ -1753,21 +1828,24 @@ h2 {
     grid-auto-rows: 200px;
     gap: 16px;
     grid-template-areas:
-        "alexandra"
-        "alexandra"
-        "info";
+      "alexandra"
+      "alexandra"
+      "info";
   }
 
   .passenger-terminal-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1, 250px) repeat(1, 125px) repeat(1, 50px) repeat(1, 100px);
+    grid-template-rows: repeat(1, 250px) repeat(1, 125px) repeat(1, 50px) repeat(
+        1,
+        100px
+      );
     gap: 16px;
     grid-template-areas:
-        "airport"
-        "text-first"
-        "text-second"
-        "text-third";
+      "airport"
+      "text-first"
+      "text-second"
+      "text-third";
   }
 
   .taxi-img {
@@ -1813,8 +1891,8 @@ h2 {
 
   .parking-phone {
     transform: scale(0.8);
-    top:-50px;
-    right:-40px;
+    top: -50px;
+    right: -40px;
   }
 
   .group-296 {
@@ -1833,25 +1911,25 @@ h2 {
     margin-top: 0;
   }
 
-  .carsharing-img {
+  /* .carsharing-img {
   }
 
   .airport {
-  }
+  } */
 }
 
 a {
-  color: #1A66CC;
+  color: #1a66cc;
 }
 
 a[download]::before {
-  content: ('img/shape/doc-file-icon.svg'); 
-  padding-left: 0.4em; 
+  content: ("img/shape/doc-file-icon.svg");
+  padding-left: 0.4em;
   vertical-align: sub;
- }
+}
 
- a[download]::after {
-  content: ''; /* Пустое содержимое */
+a[download]::after {
+  content: ""; /* Пустое содержимое */
   display: inline-block; /* Преобразуем в строчно-блочный элемент */
   width: 20px; /* Ширина картинки */
   height: 20px; /* Высота картинки */
@@ -1859,4 +1937,4 @@ a[download]::before {
   background-size: 100%; /* Масштабируем картинку */
   margin-left: 0.4em; /* Расстояние от картинки до текста */
   vertical-align: bottom; /* Положение по вертикали */
- }
+}

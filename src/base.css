@@ -5,25 +5,25 @@
 @import "../node_modules/tailwindcss/utilities.css";
 
 body {
-    /*font-family: MoscowSanse;*/
-    font-size: 20px;
-    background: #F5F6F7;
+  /*font-family: MoscowSanse;*/
+  font-size: 20px;
+  background: #f5f6f7;
 }
 
 .none {
-    display: none !important;
+  display: none !important;
 }
 
 .visually-hidden {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-    display: block;
-    margin-left: -10000px;
-    background: transparent;
-    font-size: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
 }
 
 /*.container {*/
@@ -33,35 +33,33 @@ body {
 /*    margin-right: auto;*/
 /*}*/
 
-
 .content-limiter {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 20px;
-    position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
 }
 
 h2 {
-    color: #000;
-    /* desktop/H1 */
-    font-size: 62px;
-    /*font-family: MoscowSans;*/
-    font-style: normal;
-    font-weight: 500;
-    line-height: 62px;
-    margin-bottom: 48px;
-    margin-top: 24px;
+  color: #000;
+  /* desktop/H1 */
+  font-size: 62px;
+  /*font-family: MoscowSans;*/
+  font-style: normal;
+  font-weight: 500;
+  line-height: 62px;
+  margin-bottom: 48px;
+  margin-top: 24px;
 }
 
-
 .card {
-    color: #000;
-    font-size: 20px;
-    /*font-family: MoscowSans;*/
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 15px 20px;
+  color: #000;
+  font-size: 20px;
+  /*font-family: MoscowSans;*/
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 15px 20px;
 }
 
 /*section first*/
@@ -69,16 +67,16 @@ h2 {
 /*taxi*/
 
 .taxi {
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #ffdd33;
-    position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #ffdd33;
+  position: relative;
 }
 
 .taxi-img {
-    position: absolute;
-    bottom: 35px;
-    right: 0;
+  position: absolute;
+  bottom: 35px;
+  right: 0;
 }
 
 /*tat*/
@@ -86,402 +84,393 @@ h2 {
 /*terminal*/
 
 .terminal {
-    border-radius: 8px;
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 
 .terminal::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url("../img/shape/terminal.svg") left bottom 20px / 60% no-repeat, #0072BC;
-    z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/shape/terminal.svg") left bottom 20px / 60% no-repeat,
+    #0072bc;
+  z-index: -1;
 }
 
 .terminal h5 {
-    color: white;
+  color: white;
 }
 
 .rjd {
-
-    border-radius: 8px;
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 
 .rjd::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url("../img/shape/rjd.svg") right bottom 10px / 60% no-repeat, #DA2032;
-    z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/shape/rjd.svg") right bottom 10px / 60% no-repeat,
+    #da2032;
+  z-index: -1;
 }
 
 .rjd h5 {
-    color: white;
+  color: white;
 }
 
 .bus {
-    border-radius: 8px;
-    background: url("../img/bus.jpg") right bottom / 80% no-repeat, #007DBD;
+  border-radius: 8px;
+  background: url("../img/bus.jpg") right bottom / 80% no-repeat, #007dbd;
 }
 
-
 .bus h5 {
-    color: white;
+  color: white;
 }
 
 .map-container {
-    border-radius: 8px;
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
-    background: white;
+  border-radius: 8px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: white;
 }
 
 .map-img {
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    top: 10px;
-    position: absolute;
-    object-fit: cover;
-    z-index: -1;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  top: 10px;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .map-img-mobile {
-    display: none;
+  display: none;
 }
 
 .map-text {
-    background: white;
-    clip-path: ellipse(80% 50% at center);
+  background: white;
+  clip-path: ellipse(80% 50% at center);
 }
 
 .white-frame {
-    width: 150%;
-    height: 150%;
+  width: 150%;
+  height: 150%;
 
-    border-radius: 50%;
-    background: #FFF;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, -10%);
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -10%);
 }
 
 .troika {
-    border-radius: 8px;
-    background-color: #0DA4BF;
-    position: relative;
+  border-radius: 8px;
+  background-color: #0da4bf;
+  position: relative;
 }
 
 .troika-img {
-    position: absolute;
-    left: 26px;
-    top: 95px;
-
+  position: absolute;
+  left: 26px;
+  top: 95px;
 }
 
 .troika h5 {
-    color: white;
+  color: white;
 }
 
 .ticket-container {
-    border-radius: 8px;
-    background: #0DA4BF;
-    position: relative;
-    /*overflow: hidden;*/
+  border-radius: 8px;
+  background: #0da4bf;
+  position: relative;
+  /*overflow: hidden;*/
 }
 
 .proezdnoy {
-    position: absolute;
-    top: -13px;
-    right: -4px;
+  position: absolute;
+  top: -13px;
+  right: -4px;
 }
 
 .ticket-container h5 {
-    color: white;
+  color: white;
 }
 
 .troika-ediniy {
-    position: absolute;
-
+  position: absolute;
 }
 
 .night-way {
-    border-radius: 8px;
-    background: #10225C;
-    position: relative;
+  border-radius: 8px;
+  background: #10225c;
+  position: relative;
 }
 
 .night-way h5 {
-    color: white;
+  color: white;
 }
 
 .vector-10 {
-    position: absolute;
-    right: 194px;
-    bottom: 25px;
+  position: absolute;
+  right: 194px;
+  bottom: 25px;
 }
 
 .vector-11 {
-    position: absolute;
-    top: 70px;
-    left: 20px;
+  position: absolute;
+  top: 70px;
+  left: 20px;
 }
 
 .ellipse-14 {
-    position: absolute;
-    top: 15px;
-    right: 34px;
+  position: absolute;
+  top: 15px;
+  right: 34px;
 }
 
 .ellipse-15 {
-    position: absolute;
-    right: 256px;
-    bottom: 36px;
-
+  position: absolute;
+  right: 256px;
+  bottom: 36px;
 }
 
 .ellipse-16 {
-    position: absolute;
-    top: 54px;
-    right: 194px;
+  position: absolute;
+  top: 54px;
+  right: 194px;
 }
 
 .ellipse-17 {
-    position: absolute;
-    right: 17px;
-    bottom: 20px;
-
+  position: absolute;
+  right: 17px;
+  bottom: 20px;
 }
 
 .moon-bus {
-    position: absolute;
-    right: 31px;
-    bottom: 28px;
+  position: absolute;
+  right: 31px;
+  bottom: 28px;
 }
 
 .parking {
-    border-radius: 8px;
-    background: #68AD45;
-    position: relative;
+  border-radius: 8px;
+  background: #68ad45;
+  position: relative;
 }
 
-.parking-phone {;
+/* .parking-phone {;
     position: absolute;
     right: -17px;
     top: 10px;
-}
+} */
 
 .parking h5 {
-    color: white;
+  color: white;
 }
 
 .velobike {
-    border-radius: 8px;
-    background: #3DD5AF;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
-    /*position: relative;*/
-    display: flex;
-    flex-direction: column;
+  border-radius: 8px;
+  background: #3dd5af;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
+  /*position: relative;*/
+  display: flex;
+  flex-direction: column;
 }
 
 .group-296 {
-    /*position: absolute;*/
-    height: auto;
-    width: 172px;
-    margin-left: 165px;
-    margin-top: 10px;
+  /*position: absolute;*/
+  height: auto;
+  width: 172px;
+  margin-left: 165px;
+  margin-top: 10px;
 }
 
 .scooter {
-    border-radius: 8px;
-    background: #FF6B00;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
-    /*position: relative;*/
-    display: flex;
-    flex-direction: column;
+  border-radius: 8px;
+  background: #ff6b00;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
+  /*position: relative;*/
+  display: flex;
+  flex-direction: column;
 }
 
 .group-297 {
-    /*position: absolute;*/
-    height: auto;
-    width: 172px;
-    margin-left: 165px;
-    margin-top: 10px;
+  /*position: absolute;*/
+  height: auto;
+  width: 172px;
+  margin-left: 165px;
+  margin-top: 10px;
 }
 
 .carsharing {
-    /*height: 420px;*/
-    border-radius: 8px;
-    background: #FF6B00;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
-    position: relative;
-
+  /*height: 420px;*/
+  border-radius: 8px;
+  background: #ff6b00;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .carsharing-img {
-    position: absolute;
-    /*height: 205.372px;*/
-    background: -162.11px 0 / 140.955% 100% no-repeat;
-    bottom: 21px;
-    left: 0;
+  position: absolute;
+  /*height: 205.372px;*/
+  background: -162.11px 0 / 140.955% 100% no-repeat;
+  bottom: 21px;
+  left: 0;
 }
 
 .mobile-application {
-    border-radius: 8px;
-    background: #092360;
-    position: relative;
-    overflow: hidden;
+  border-radius: 8px;
+  background: #092360;
+  position: relative;
+  overflow: hidden;
 }
 
 .mobile-img {
-    position: absolute;
-    bottom:0;
+  position: absolute;
+  bottom: 0;
 }
 
 .mobile-application h5 {
-    color: white;
+  color: white;
 }
 
 .alexandra {
-    border-radius: 8px;
-    background: #DA2032;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
-    position: relative;
+  border-radius: 8px;
+  background: #da2032;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .alexandra-img {
-    position: absolute;
-    bottom:0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .alexandra h5 {
-    color: white;
+  color: white;
 }
 
 .info {
-    height: 198px;
-    border-radius: 8px;
-    background: #979797;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
-    position: relative;
-    overflow: hidden;
+  height: 198px;
+  border-radius: 8px;
+  background: #979797;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
 }
 
 .info-img {
-
-    position: absolute;
-    right: -10px;
-    top: 36px;
+  position: absolute;
+  right: -10px;
+  top: 36px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .underline-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 7px;
-    width: auto;
-    text-decoration: underline rgba(0, 0, 0, 0.2);
-    text-underline-offset: 4px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  width: auto;
+  text-decoration: underline rgba(0, 0, 0, 0.2);
+  text-underline-offset: 4px;
 }
 
 .airport {
-    border-radius: 8px;
-    /*background: url("../img/Rectangle 72.png") no-repeat, 50% / cover;*/
+  border-radius: 8px;
+  /*background: url("../img/Rectangle 72.png") no-repeat, 50% / cover;*/
 }
 
 .airport-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .fact {
-    font-size: 62px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 62px;
-    padding-left: 136px;
-    margin-bottom: 6px;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 62px;
+  padding-left: 136px;
+  margin-bottom: 6px;
 }
 
 .fact:not(:last-child):not(:first-child) {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .text-grid {
-    color: #000;
-    font-size: 20px;
-    /*font-family: MoscowSans;*/
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-
+  color: #000;
+  font-size: 20px;
+  /*font-family: MoscowSans;*/
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .text-fact {
-    color: #000;
-    /*font-family: MoscowSans;*/
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-    padding-left: 136px;
+  color: #000;
+  /*font-family: MoscowSans;*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 136px;
 }
 
-
 .text-page {
-    color: #000;
-    font-size: 20px;
-    /*font-family: MoscowSans;*/
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    margin-bottom: 18px;
+  color: #000;
+  font-size: 20px;
+  /*font-family: MoscowSans;*/
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 18px;
 }
 
 .text-container {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .first-section-grid {
-    display: grid;
-    grid-template-columns: 0.33fr 0.17fr 0.17fr 0.33fr;
-    grid-auto-rows: 198px;
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 0.33fr 0.17fr 0.17fr 0.33fr;
+  grid-auto-rows: 198px;
+  gap: 24px;
+  grid-template-areas:
     "taxi rjd metro map"
     "taxi bus bus map";
 }
 
 .second-section-grid {
-    display: grid;
-    grid-template-columns: 1fr 0.3fr 0.8fr 0.2fr 0.8fr;
-    grid-auto-rows: 198px;
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 0.8fr 0.2fr 0.8fr;
+  grid-auto-rows: 198px;
+  gap: 24px;
+  grid-template-areas:
     "troika troika ticket ticket parking"
     "troika troika night night parking"
     "velobike carsh carsh mobile mobile"
@@ -489,44 +478,44 @@ h2 {
 }
 
 .third-section-grid {
-    margin-top: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 198px;
-    gap: 24px;
-    grid-template-areas:
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 198px;
+  gap: 24px;
+  grid-template-areas:
     "velobike carsh mobile"
     "scooter carsh mobile";
 }
 
 .forth-section-grid {
-    margin-top: 24px;
-    display: grid;
-    grid-template-columns: 0.5fr 0.25fr;
-    grid-auto-rows: 198px;
-    gap: 24px;
-    grid-template-areas:
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.25fr;
+  grid-auto-rows: 198px;
+  gap: 24px;
+  grid-template-areas:
     "alexandra info"
     "alexandra .";
 }
 
 .passenger-terminal-grid {
-    display: grid;
-    grid-template-columns: 1fr 0.6fr;
-    /*grid-auto-rows: 198px;*/
-    gap: 16px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  /*grid-auto-rows: 198px;*/
+  gap: 16px;
+  grid-template-areas:
     "airport . "
     "text-first text-third"
     "text-second . ";
 }
 
 .timetable-grid {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr;
-    /*grid-auto-rows: 200px;*/
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
     "head head ."
     "validator validator statistic-validator"
     "validator-text validator-text ."
@@ -543,68 +532,66 @@ h2 {
     "avtobus-morning-link avtobus-morning-link clock-avtobus-morning";
 }
 
-
-
 .head-text {
-    color: #666F78;
-    /* desktop/Lead */
-    /*font-family: MoscowSans;*/
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36px; /* 128.571% */
+  color: #666f78;
+  /* desktop/Lead */
+  /*font-family: MoscowSans;*/
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
 }
 
 .validator-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .trolley-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 .avtobus-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 .salon-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 .avtobus-night-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .bordered-field {
-    font-size: 22px;
-    border-radius: 12px;
-    border: solid 4px #F3E95E;
+  font-size: 22px;
+  border-radius: 12px;
+  border: solid 4px #f3e95e;
 }
-.bordered-field legend{
-    margin: 0 15px;
+.bordered-field legend {
+  margin: 0 15px;
 }
 
 .bordered-field-text {
-    padding: 15px;
+  padding: 15px;
 }
 
 .clock-img {
-    padding-top: 215px;
-    padding-left: 136px;
+  padding-top: 215px;
+  padding-left: 136px;
 }
 
 .text-margin {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .railway-grid {
-    display: grid;
-    grid-template-columns: 1fr 0.7fr;
-    /*grid-auto-rows: 200px;*/
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
     "station-text ."
     "station ."
     "station-subtext ."
@@ -616,11 +603,11 @@ h2 {
     "mck-winter-text .";
 }
 .railway-grid2 {
-    display: grid;
-    grid-template-columns: 1fr 0.7fr;
-    /*grid-auto-rows: 200px;*/
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
     "station-text ."
     "station ."
     "station-subtext ."
@@ -632,11 +619,11 @@ h2 {
     "mck-winter-text .";
 }
 .taxi-grid {
-    display: grid;
-    grid-template-columns: 1fr 0.7fr;
-    /*grid-auto-rows: 200px;*/
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
     "head ."
     "yellow-taxi statistic-yellow-taxi"
     "yellow-taxi-text ."
@@ -645,17 +632,17 @@ h2 {
 }
 
 .yellow-border-box {
-    border-radius: 8px;
-    border: 4px solid #F3E95E;
-    padding: 23px;
+  border-radius: 8px;
+  border: 4px solid #f3e95e;
+  padding: 23px;
 }
 
 .river-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*grid-auto-rows: 200px;*/
-    gap: 24px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
     "head ."
     "square-text-top ."
     "square ."
@@ -665,364 +652,373 @@ h2 {
 }
 
 .square-img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
-@media (max-width: 998px) {
-    /*.first-section-grid {*/
-    /*    gap: 20px;*/
-    /*    grid-template-columns: 1fr 1fr;*/
-    /*    grid-template-rows: repeat(3, 250px);*/
-    /*    grid-template-areas:*/
-    /*    "taxi map"*/
-    /*    "bus bus"*/
-    /*    "rjd metro";*/
-    /*}*/
-    .first-section-grid {
-        gap: 20px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(3, 250px);
-        grid-template-areas:
-        "taxi rjd metro"
-        "taxi bus bus"
-        "map map map";
-    }
+@media screen and (max-width: 998px) {
+  /*.first-section-grid {*/
+  /*    gap: 20px;*/
+  /*    grid-template-columns: 1fr 1fr;*/
+  /*    grid-template-rows: repeat(3, 250px);*/
+  /*    grid-template-areas:*/
+  /*    "taxi map"*/
+  /*    "bus bus"*/
+  /*    "rjd metro";*/
+  /*}*/
 
-    .second-section-grid {
-        gap: 20px;
-        grid-template-columns: 1fr 0.5fr 0.5fr;
-        grid-template-rows: repeat(4, 210px) repeat(1, 280px);
-        grid-template-areas:
-        "troika ticket ticket"
-        "troika night night"
-        "parking velobike scooter"
-        "parking carsh carsh"
-        "mobile mobile mobile";
-    }
+  .first-section-grid {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas:
+      "taxi rjd metro"
+      "taxi bus bus"
+      "map map map";
+  }
 
-    .forth-section-grid {
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 200px;
-        gap: 24px;
-        grid-template-areas:
-        "alexandra info"
-        "alexandra .";
-    }
+  .second-section-grid {
+    gap: 20px;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: repeat(4, 210px) repeat(1, 280px);
+    grid-template-areas:
+      "troika ticket ticket"
+      "troika night night"
+      "parking velobike scooter"
+      "parking carsh carsh"
+      "mobile mobile mobile";
+  }
 
-    .passenger-terminal-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        /*grid-auto-rows: 198px;*/
-        gap: 24px;
-        grid-template-areas:
-        "airport"
-        "text-first"
-        "text-second"
-        "text-third";
-    }
+  .forth-section-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 24px;
+    grid-template-areas:
+      "alexandra info"
+      "alexandra .";
+  }
 
-    .timetable-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /*grid-auto-rows: 200px;*/
-        gap: 20px;
-        grid-template-areas:
-        "head head"
-        "validator validator"
-        "validator-text validator-text"
-        "statistic-validator statistic-validator"
-        "trolley trolley"
-        "trolley-text trolley-text"
-        "statistic-trolley statistic-trolley"
-        "avtobus salon"
-        "avtobus-text avtobus-text"
-        "statistic-avtobus statistic-avtobus"
-        "avtobus-link avtobus-link"
-        "avtobus-night avtobus-night"
-        "avtobus-night-text avtobus-night-text"
-        "statistic-avtobus-night statistic-avtobus-night"
-        "avtobus-night-link avtobus-night-link"
-        "avtobus-morning avtobus-morning"
-        "avtobus-morning-text avtobus-morning-text"
-        "statistic-avtobus-morning statistic-avtobus-morning"
-        "avtobus-morning-link avtobus-morning-link"
-        "clock-avtobus-morning .";
-    }
+  .passenger-terminal-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-auto-rows: 198px;*/
+    gap: 24px;
+    grid-template-areas:
+      "airport"
+      "text-first"
+      "text-second"
+      "text-third";
+  }
 
+  .timetable-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
+      "head head"
+      "validator validator"
+      "validator-text validator-text"
+      "statistic-validator statistic-validator"
+      "trolley trolley"
+      "trolley-text trolley-text"
+      "statistic-trolley statistic-trolley"
+      "avtobus salon"
+      "avtobus-text avtobus-text"
+      "statistic-avtobus statistic-avtobus"
+      "avtobus-link avtobus-link"
+      "avtobus-night avtobus-night"
+      "avtobus-night-text avtobus-night-text"
+      "statistic-avtobus-night statistic-avtobus-night"
+      "avtobus-night-link avtobus-night-link"
+      "avtobus-morning avtobus-morning"
+      "avtobus-morning-text avtobus-morning-text"
+      "statistic-avtobus-morning statistic-avtobus-morning"
+      "avtobus-morning-link avtobus-morning-link"
+      "clock-avtobus-morning .";
+  }
 
-    .taxi-img {
-        transform: scale(1.3);
-        right: -65px;
-    }
+  .taxi-img {
+    transform: scale(1.3);
+    right: -65px;
+  }
 
-    .terminal::before {
-        background-size: 45%;
-    }
+  .terminal::before {
+    background-size: 45%;
+  }
 
-    .bus {
-        background-size: 80%;
-    }
+  .bus {
+    background-size: 80%;
+  }
 
-    .rjd::before {
-        background-size: 45%;
-    }
+  .rjd::before {
+    background-size: 45%;
+  }
 
-    .map-img-desktop {
-        display: none;
-    }
+  .map-img-desktop {
+    display: none;
+  }
 
-    .map-img-mobile {
-        display: block;
-    }
+  .map-img-mobile {
+    display: block;
+  }
 
-    .troika {
-        overflow: hidden;
-    }
+  .troika {
+    overflow: hidden;
+  }
 
-    .troika-img {
-        transform: scale(1.2);
-        left: 140px
-    }
+  .troika-img {
+    transform: scale(1.2);
+    left: 140px;
+  }
 
-    .proezdnoy {
-        transform: scale(1);
-        top: initial;
-        bottom: 0;
-    }
+  .proezdnoy {
+    transform: scale(1);
+    top: initial;
+    bottom: 0;
+  }
 
-    .group-296 {
-        /*position: absolute;*/
-        height: auto;
-        width: 160px;
-        margin-left: 35px;
-        margin-top: 30px;
-    }
+  .group-296 {
+    /*position: absolute;*/
+    height: auto;
+    width: 160px;
+    margin-left: 35px;
+    margin-top: 30px;
+  }
 
-    .group-297 {
-        /*position: absolute;*/
-        height: auto;
-        width: 160px;
-        margin-left: 35px;
-        margin-top: 30px;
-    }
+  .group-297 {
+    /*position: absolute;*/
+    height: auto;
+    width: 160px;
+    margin-left: 35px;
+    margin-top: 30px;
+  }
 
-    .parking-phone {
-        bottom: 0;
-        top: initial;
-    }
+  .parking-phone {
+    bottom: 0;
+    top: initial;
+  }
 
-    .carsharing-img {
-        height: auto;
-        width: 212px;
-    }
+  .carsharing-img {
+    height: auto;
+    width: 212px;
+  }
 
-    .mobile-img {
-        height: auto;
-        width: 350px;
-        right: 0;
-    }
+  .mobile-img {
+    height: auto;
+    width: 350px;
+    right: 0;
+  }
 
-    .fact {
-        padding-left: inherit;
-    }
-    .text-fact {
-        padding-left: inherit;
-    }
+  .fact {
+    padding-left: inherit;
+  }
+  .text-fact {
+    padding-left: inherit;
+  }
 
-    .railway-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /*grid-auto-rows: 200px;*/
-        gap: 20px;
-        grid-template-areas:
-        "station-text station-text"
-        "station station"
-        "station-subtext station-subtext"
-        "vagon vagon"
-        "statistic-vagon statistic-vagon"
-        "vagon-text vagon-text"
-        "mck mck"
-        "statistic-mck statistic-mck"
-        "mck-text mck-text"
-        "mck-winter mck-winter"
-        "statistic-mck-winter statistic-mck-winter"
-        "mck-winter-text mck-winter-text";
-    }
-    .station-img {
-        height: auto;
-        width: 100%;
-    }
-    .vagon-img {
-        height: auto;
-        width: 100%;
-    }
-    .mck-img {
-        height: auto;
-        width: 100%;
-    }
-    .mck-winter-img {
-        height: auto;
-        width: 100%;
-    }
+  .railway-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
+      "station-text station-text"
+      "station station"
+      "station-subtext station-subtext"
+      "vagon vagon"
+      "statistic-vagon statistic-vagon"
+      "vagon-text vagon-text"
+      "mck mck"
+      "statistic-mck statistic-mck"
+      "mck-text mck-text"
+      "mck-winter mck-winter"
+      "statistic-mck-winter statistic-mck-winter"
+      "mck-winter-text mck-winter-text";
+  }
+  .station-img {
+    height: auto;
+    width: 100%;
+  }
+  .vagon-img {
+    height: auto;
+    width: 100%;
+  }
+  .mck-img {
+    height: auto;
+    width: 100%;
+  }
+  .mck-winter-img {
+    height: auto;
+    width: 100%;
+  }
 
-    .taxi-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        /*grid-auto-rows: 200px;*/
-        gap: 24px;
-        grid-template-areas:
-        "head"
-        "yellow-taxi"
-        "statistic-yellow-taxi"
-        "yellow-taxi-text"
-        "yellow-taxi-subtext"
-        "yellow-box-statistic"
-        "yellow-taxi-bottomtext";
-    }
-    .yellow-taxi-img {
-        height: auto;
-        width: 100%;
-    }
+  .taxi-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 24px;
+    grid-template-areas:
+      "head"
+      "yellow-taxi"
+      "statistic-yellow-taxi"
+      "yellow-taxi-text"
+      "yellow-taxi-subtext"
+      "yellow-box-statistic"
+      "yellow-taxi-bottomtext";
+  }
+  .yellow-taxi-img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .first-section-grid {
-        gap: 16px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 150px) repeat(2, 315px);
-        grid-template-areas:
-        "taxi"
-        "rjd"
-        "metro"
-        "bus"
-        "map";
-    }
+  .heading {
+    margin-bottom: 40px;
+    background-color: green;
+  }
+  .first-section-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 150px) repeat(2, 315px);
+    grid-template-areas:
+      "taxi"
+      "rjd"
+      "metro"
+      "bus"
+      "map";
+  }
 
-    .second-section-grid {
-        gap: 16px;
-        grid-template-columns: 1fr;
-        /*grid-template-rows: repeat(1, 150px) repeat(1, 200px) repeat(1, 150px) repeat(1, 320px) repeat(2, 150px) repeat(1, 312px);*/
-        grid-template-rows: 150px 200px 150px 320px repeat(2, 150px) repeat(2, 312px);
-        grid-template-areas:
-        "troika"
-        "ticket"
-        "night"
-        "parking"
-        "scooter"
-        "velobike"
-        "carsh"
-        "mobile";
-    }
+  .second-section-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+    /*grid-template-rows: repeat(1, 150px) repeat(1, 200px) repeat(1, 150px) repeat(1, 320px) repeat(2, 150px) repeat(1, 312px);*/
+    grid-template-rows: 150px 200px 150px 320px repeat(2, 150px) repeat(
+        2,
+        312px
+      );
+    grid-template-areas:
+      "troika"
+      "ticket"
+      "night"
+      "parking"
+      "scooter"
+      "velobike"
+      "carsh"
+      "mobile";
+  }
 
+  .third-section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 150px) repeat(1, 150px) repeat(1, 320px) repeat(
+        1,
+        320px
+      );
+    gap: 16px;
+    grid-template-areas:
+      "scooter"
+      "velobike"
+      "carsh"
+      "mobile";
+  }
 
-    .third-section-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, 150px) repeat(1, 150px) repeat(1, 320px) repeat(1, 320px);
-        gap: 16px;
-        grid-template-areas:
-        "scooter"
-        "velobike"
-        "carsh"
-        "mobile";
+  .forth-section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+    gap: 16px;
+    grid-template-areas:
+      "alexandra"
+      "alexandra"
+      "info";
+  }
 
-    }
+  .passenger-terminal-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 250px) repeat(1, 125px) repeat(1, 50px) repeat(
+        1,
+        100px
+      );
+    gap: 16px;
+    grid-template-areas:
+      "airport"
+      "text-first"
+      "text-second"
+      "text-third";
+  }
 
-    .forth-section-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-        gap: 16px;
-        grid-template-areas:
-        "alexandra"
-        "alexandra"
-        "info";
-    }
+  .taxi-img {
+    transform: scale(0.6);
+    top: -10px;
+    right: -75px;
+  }
 
-    .passenger-terminal-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, 250px) repeat(1, 125px) repeat(1, 50px) repeat(1, 100px);
-        gap: 16px;
-        grid-template-areas:
-        "airport"
-        "text-first"
-        "text-second"
-        "text-third";
-    }
+  .terminal::before {
+    transform: scaleX(-1);
+    background-size: auto 55%;
+    left: auto;
+    right: 0;
+  }
 
-    .taxi-img {
-        transform: scale(0.6);
-        top: -10px;
-        right: -75px;
-    }
+  .bus {
+    background-size: 100%;
+  }
 
-    .terminal::before {
-        transform: scaleX(-1);
-        background-size: auto 55%;
-        left: auto;
-        right: 0;
+  .rjd {
+    background-position: right center;
+  }
 
-    }
+  .rjd::before {
+    background-size: auto 55%;
+  }
 
-    .bus {
-        background-size: 100%;
-    }
+  .troika {
+    overflow: hidden;
+  }
 
-    .rjd {
-        background-position: right center;
-    }
+  .troika-img {
+    transform: scale(0.7);
+    top: -28px;
+    left: 145px;
+  }
 
-    .rjd::before {
-        background-size: auto 55%;
-    }
+  .moon-bus {
+    transform: scale(0.7);
+    right: 0;
+    bottom: 0;
+  }
 
-    .troika {
-        overflow: hidden;
-    }
+  .parking-phone {
+    transform: scale(0.8);
+    top: -50px;
+    right: -40px;
+  }
 
-    .troika-img {
-        transform: scale(0.7);
-        top: -28px;
-        left: 145px;
-    }
+  .group-296 {
+    /*position: absolute;*/
+    height: auto;
+    width: 120px;
+    margin-left: 285px;
+    margin-top: 0;
+  }
 
-    .moon-bus {
-        transform: scale(0.7);
-        right: 0;
-        bottom: 0;
-    }
+  .group-297 {
+    /*position: absolute;*/
+    height: auto;
+    width: 120px;
+    margin-left: 285px;
+    margin-top: 0;
+  }
 
-    .parking-phone {
-        transform: scale(0.8);
-        top:-50px;
-        right:-40px;
-    }
+  /* .carsharing-img {
+}
 
-    .group-296 {
-        /*position: absolute;*/
-        height: auto;
-        width: 120px;
-        margin-left: 285px;
-        margin-top: 0;
-    }
+.airport {
 
-    .group-297 {
-        /*position: absolute;*/
-        height: auto;
-        width: 120px;
-        margin-left: 285px;
-        margin-top: 0;
-    }
-
-    .carsharing-img {
-    }
-
-    .airport {
-
-    }
-
+} */
 }
