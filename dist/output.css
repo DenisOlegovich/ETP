@@ -1843,3 +1843,20 @@ h2 {
 a {
   color: #1A66CC;
 }
+
+a[download]::before {
+  content: ('img/shape/doc-file-icon.svg'); 
+  padding-left: 0.4em; 
+  vertical-align: sub;
+ }
+
+ a[download]::after {
+  content: ''; /* Пустое содержимое */
+  display: inline-block; /* Преобразуем в строчно-блочный элемент */
+  width: 20px; /* Ширина картинки */
+  height: 20px; /* Высота картинки */
+  background-image: url(img/shape/doc-file-icon.svg); /* Выводим фоновую картинку */
+  background-size: 100%; /* Масштабируем картинку */
+  margin-left: 0.4em; /* Расстояние от картинки до текста */
+  vertical-align: bottom; /* Положение по вертикали */
+ }

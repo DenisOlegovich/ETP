@@ -610,12 +610,27 @@ h2 {
     "station-subtext ."
     "vagon statistic-vagon"
     "vagon-text ."
+    "mck ."
+    "mck-text statistic-mck"
+    "mck-winter statistic-mck-winter"
+    "mck-winter-text .";
+}
+.railway-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 24px;
+    grid-template-areas:
+    "station-text ."
+    "station ."
+    "station-subtext ."
+    "vagon statistic-vagon"
+    "vagon-text ."
     "mck statistic-mck"
     "mck-text ."
     "mck-winter statistic-mck-winter"
     "mck-winter-text .";
 }
-
 .taxi-grid {
     display: grid;
     grid-template-columns: 1fr 0.7fr;
