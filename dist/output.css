@@ -917,7 +917,9 @@ body {
 .none {
   display: none !important;
 }
-
+.service-point-download {
+  position: relative;
+}
 .visually-hidden {
   position: absolute;
   opacity: 0;
