@@ -797,7 +797,20 @@ video {
 .\[grid-area\:vagon\] {
   grid-area: vagon;
 }
+.\[grid-area\:carsh-text\] {
+  grid-area: carsh-text;
+}
 
+.\[grid-area\:carsh-header\] {
+  grid-area: carsh-header;
+}
+.\[grid-area\:carsh-girl\] {
+  grid-area: carsh-girl;
+}
+
+.\[grid-area\:statistic-carsh\] {
+  grid-area: statistic-carsh;
+}
 .\[grid-area\:validator-text\] {
   grid-area: validator-text;
 }
@@ -829,7 +842,72 @@ video {
 .\[grid-area\:yellow-taxi\] {
   grid-area: yellow-taxi;
 }
-
+.\[grid-area\:scooters-header\] {
+  grid-area: scooters-header;
+}
+.\[grid-area\:scooters\] {
+  grid-area: scooters;
+}
+.\[grid-area\:statistic-scooters1\] {
+  grid-area: statistic-scooters1;
+}
+.\[grid-area\:statistic-scooters2\] {
+  grid-area: statistic-scooters2;
+}
+.\[grid-area\:statistic-scooters3\] {
+  grid-area: statistic-scooters3;
+}
+.\[grid-area\:statistic-scooters4\] {
+  grid-area: statistic-scooters4;
+}
+.\[grid-area\:scooters-text\] {
+  grid-area: scooters-text;
+}
+.\[grid-area\:scooters-border-text\] {
+  grid-area: scooters-border-text;
+}
+.\[grid-area\:scooters-girl\] {
+  grid-area: scooters-girl;
+}
+.\[grid-area\:scooters-alarm\] {
+  grid-area: scooters-alarm;
+}
+.\[grid-area\:parking-header\] {
+  grid-area: parking-header;
+}
+.\[grid-area\:parking\] {
+  grid-area: parking;
+}
+.\[grid-area\:statistic-parking\] {
+  grid-area: statistic-parking;
+}
+.\[grid-area\:parking-text\] {
+  grid-area: parking-text;
+}
+.\[grid-area\:chatbot-header\] {
+  grid-area: chatbot-header;
+}
+.\[grid-area\:chatbot\] {
+  grid-area: chatbot;
+}
+.\[grid-area\:chatbot-text\] {
+  grid-area: chatbot-text;
+}
+.\[grid-area\:service-point-header\] {
+  grid-area: service-point-header;
+}
+.\[grid-area\:service-point-man\] {
+  grid-area: service-point-man;
+}
+.\[grid-area\:statistic-service-point\] {
+  grid-area: statistic-service-point;
+}
+.\[grid-area\:service-point-card\] {
+  grid-area: service-point-card;
+}
+.\[grid-area\:service-point-download\] {
+  grid-area: service-point-download;
+}
 body {
   /*font-family: MoscowSanse;*/
   font-size: 20px;
@@ -887,7 +965,7 @@ h2 {
   font-size: 28px;
   font-weight: 500;
   line-height: 36px; /* 128.571% */
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   color: #666f78;
 }
 
@@ -1110,7 +1188,7 @@ h2 {
 
 .parking {
   border-radius: 8px;
-  background: #68ad45;
+  /* background: #68ad45; */
   position: relative;
 }
 
@@ -1456,25 +1534,52 @@ h2 {
   grid-template-columns: 1fr 0.7fr;
   gap: 24px;
   grid-template-areas:
-    "station-text ."
-    "station ."
-    "station-subtext ."
-    "vagon statistic-vagon"
-    "vagon-text ."
-    "mck statistic-mck"
-    "mck-text ."
-    "mck-winter statistic-mck-winter"
-    "mck-winter-text .";
+    "carsh-header ."
+    "carsh-girl statistic-carsh"
+    "carsh-text .";
 }
-/* .carharing-grid {
+.scooter-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  /*grid-auto-rows: 200px;*/
+  gap: 24px;
+  grid-template-areas:
+    "scooters-header ."
+    "scooters statistic-scooters1"
+    "scooters-text statistic-scooters2"
+    "scooters-text statistic-scooters3"
+    "scooters-text statistic-scooters4"
+    "scooters-border-text ."
+    "scooters-girl ."
+    "scooters-alarm .";
+}
+.parking-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
   gap: 24px;
   grid-template-areas:
-    "carsharing-heading ."
-    "carsharing statistic-carsharing"
-    "carsharing-text .";
-} */
+    "parking-header ."
+    "parking statistic-parking"
+    "parking-text .";
+}
+.chatbot-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 24px;
+  grid-template-areas:
+    "chatbot-header ."
+    "chatbot ."
+    "chatbot-text .";
+}
+.service-point-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 24px;
+  grid-template-areas:
+    "service-point-header ."
+    "service-point-man statistic-service-point"
+    "service-point-card service-point-download";
+}
 .taxi-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
@@ -1710,6 +1815,42 @@ h2 {
     /*grid-auto-rows: 200px;*/
     gap: 20px;
     grid-template-areas:
+      "carsh-header carsh-header"
+      "carsh-girl carsh-girl"
+      "statistic-carsh statistic-carsh"
+      "carsh-text carsh-text";
+  }
+  .scooter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
+      "scooters-header scooters-header"
+      "scooters scooters"
+      "statistic-scooters1 statistic-scooters2"
+      "scooters-text scooters-text"
+      "statistic-scooters3 statistic-scooters4"
+      "scooters-border-text scooters-border-text"
+      "scooters-girl scooters-girl"
+      "scooters-alarm scooters-alarm";
+  }
+  .chatbot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
+      "chatbot-header chatbot-header"
+      "chatbot chatbot"
+      "chatbot-text chatbot-text";
+  }
+  .service-point-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows: 200px;*/
+    gap: 20px;
+    grid-template-areas:
       "station-text station-text"
       "station station"
       "station-subtext station-subtext"
@@ -1723,7 +1864,6 @@ h2 {
       "statistic-mck-winter statistic-mck-winter"
       "mck-winter-text mck-winter-text";
   }
-
   .station-img {
     height: auto;
     width: 100%;
@@ -1733,7 +1873,10 @@ h2 {
     height: auto;
     width: 100%;
   }
-
+  .base-img {
+    height: auto;
+    width: 100%;
+  }
   .mck-img {
     height: auto;
     width: 100%;
@@ -1774,7 +1917,7 @@ h2 {
   .heading-h3 {
     font-size: 20px;
     line-height: 26px; /* 128.571% */
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
   .text-fact {
     font-size: 14px;
