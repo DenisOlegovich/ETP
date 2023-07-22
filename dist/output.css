@@ -1851,18 +1851,11 @@ h2 {
     /*grid-auto-rows: 200px;*/
     gap: 20px;
     grid-template-areas:
-      "station-text station-text"
-      "station station"
-      "station-subtext station-subtext"
-      "vagon vagon"
-      "statistic-vagon statistic-vagon"
-      "vagon-text vagon-text"
-      "mck mck"
-      "statistic-mck statistic-mck"
-      "mck-text mck-text"
-      "mck-winter mck-winter"
-      "statistic-mck-winter statistic-mck-winter"
-      "mck-winter-text mck-winter-text";
+      "service-point-header service-point-header"
+      "service-point-man service-point-man"
+      "statistic-service-point statistic-service-point"
+      "service-point-card service-point-card"
+      "service-point-download service-point-download";
   }
   .station-img {
     height: auto;
