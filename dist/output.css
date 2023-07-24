@@ -339,9 +339,11 @@ legend {
 ol,
 ul,
 menu {
-  list-style: none;
+  /* list-style: none; */
   margin: 0;
+  margin-left: 15px;
   padding: 0;
+  padding-left: 30px;
 }
 
 /*
@@ -884,6 +886,34 @@ video {
 .\[grid-area\:parking-text\] {
   grid-area: parking-text;
 }
+.\[grid-area\:metro-app-header\] {
+  grid-area: metro-app-header;
+}
+.\[grid-area\:metro-app-text\] {
+  grid-area: metro-app-text;
+}
+.\[grid-area\:metro-app-image\] {
+  grid-area: metro-app-image;
+}
+.\[grid-area\:parking-app-header\] {
+  grid-area: parking-app-header;
+}
+.\[grid-area\:parking-app-text\] {
+  grid-area: parking-app-text;
+}
+.\[grid-area\:parking-app-image\] {
+  grid-area: parking-app-image;
+}
+.\[grid-area\:mt-app-header\] {
+  grid-area: mt-app-header;
+}
+.\[grid-area\:mt-app\] {
+  grid-area: mt-app;
+}
+.\[grid-area\:mt-app-text\] {
+  grid-area: mt-app-text;
+}
+
 .\[grid-area\:chatbot-header\] {
   grid-area: chatbot-header;
 }
@@ -902,6 +932,9 @@ video {
 .\[grid-area\:statistic-service-point\] {
   grid-area: statistic-service-point;
 }
+.\[grid-area\:service-point-map\] {
+  grid-area: service-point-map;
+}
 .\[grid-area\:service-point-card\] {
   grid-area: service-point-card;
 }
@@ -914,6 +947,9 @@ body {
   background: #f5f6f7;
 }
 
+li {
+  padding-bottom: 18px;
+}
 .none {
   display: none !important;
 }
@@ -1343,6 +1379,22 @@ h2 {
   margin-top: 40px;
 }
 
+.service-point-map {
+  /* width: 310px;
+  height: 196px; */
+  background-color: green;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 136px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .text-grid {
   color: #000;
   font-size: 20px;
@@ -1564,6 +1616,19 @@ h2 {
     "parking statistic-parking"
     "parking-text .";
 }
+.app-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 24px;
+  grid-template-areas:
+    "metro-app-header ."
+    "metro-app-text metro-app-image"
+    "parking-app-header ."
+    "parking-app-text parking-app-image"
+    "mt-app-header ."
+    "mt-app ."
+    "mt-app-text .";
+}
 .chatbot-grid {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
@@ -1580,6 +1645,7 @@ h2 {
   grid-template-areas:
     "service-point-header ."
     "service-point-man statistic-service-point"
+    "service-point-man service-point-map"
     "service-point-card service-point-download";
 }
 .taxi-grid {
@@ -1618,6 +1684,21 @@ h2 {
 .square-img {
   height: auto;
   width: 100%;
+}
+.download-btn {
+  background-color: red;
+  position: absolute; /* добавили */
+  bottom: 15px;
+  margin-left: 136px;
+}
+.download-btn-text {
+  font-size: 16px;
+  color: #000;
+  padding-left: 11px;
+}
+.download-size {
+  color: #666f78;
+  font-size: 12px;
 }
 
 @media (max-width: 998px) {
@@ -1792,6 +1873,10 @@ h2 {
     padding-left: inherit;
   }
 
+  .service-point-map {
+    padding-left: inherit;
+  }
+
   .railway-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1837,6 +1922,16 @@ h2 {
       "scooters-girl scooters-girl"
       "scooters-alarm scooters-alarm";
   }
+  .parking-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    gap: 24px;
+    grid-template-areas:
+      "parking-header parking-header"
+      "parking parking"
+      "statistic-parking statistic-parking"
+      "parking-text parking-text";
+  }
   .chatbot-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1855,7 +1950,7 @@ h2 {
     grid-template-areas:
       "service-point-header service-point-header"
       "service-point-man service-point-man"
-      "statistic-service-point statistic-service-point"
+      "service-point-map statistic-service-point"
       "service-point-card service-point-card"
       "service-point-download service-point-download";
   }
@@ -1900,6 +1995,12 @@ h2 {
   .yellow-taxi-img {
     height: auto;
     width: 100%;
+  }
+  .download-btn {
+    background-color: red;
+    position: relative; /* добавили */
+    bottom: 0;
+    margin-left: 0;
   }
 }
 
@@ -2088,4 +2189,79 @@ a[download]::after {
   background-size: 100%; /* Масштабируем картинку */
   margin-left: 0.4em; /* Расстояние от картинки до текста */
   vertical-align: bottom; /* Положение по вертикали */
+}
+.metro-app-image {
+  width: 529px;
+  height: 232px;
+  background-image: url(img/Map.jpeg);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #f5f6f7;
+}
+.metro-app-image-header {
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 18px;
+}
+.metro-app-image-text {
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 8px;
+}
+.app-btns {
+  position: absolute;
+  bottom: 27px;
+  vertical-align: middle;
+}
+
+.app-btn {
+  width: 132px;
+  height: 32px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(
+      0deg,
+      rgba(130, 140, 150, 0.2) 0%,
+      rgba(130, 140, 150, 0.2) 100%
+    ),
+    rgba(243, 244, 245, 0.93);
+  color: #000000;
+  padding: 3px 10px 3px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: 1s; */
+}
+
+.app-btn:hover {
+  background-color: #000;
+  color: White;
+}
+.app-btn:hover .svg-path-black {
+  fill: white;
+}
+.app-btn:hover .svg-path-white {
+  fill: #424344;
+}
+.parking-app-image {
+  width: 529px;
+  height: 232px;
+  background-image: url(img/Map.jpeg);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #f5f6f7;
+}
+.parking-app-image-header {
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 18px;
+}
+.parking-app-image-text {
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 8px;
 }
