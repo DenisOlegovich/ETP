@@ -1705,7 +1705,7 @@ h2 {
 .download-btn {
   background-color: red;
   position: absolute; /* добавили */
-  bottom: 15px;
+  bottom: 50px;
   margin-left: 136px;
 }
 .download-btn-text {
