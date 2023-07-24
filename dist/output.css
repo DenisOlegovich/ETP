@@ -929,6 +929,9 @@ video {
 .\[grid-area\:service-point-man\] {
   grid-area: service-point-man;
 }
+.\[grid-area\:service-point-text\] {
+  grid-area: service-point-text;
+}
 .\[grid-area\:statistic-service-point\] {
   grid-area: statistic-service-point;
 }
@@ -1400,6 +1403,8 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  position: relative; /* добавили */
+  bottom: 0;
 }
 
 .text-grid {
@@ -1667,6 +1672,7 @@ h2 {
     "service-point-header ."
     "service-point-man statistic-service-point"
     "service-point-man service-point-map"
+    "service-point-text ."
     "service-point-card service-point-download";
 }
 .taxi-grid {
@@ -1896,6 +1902,7 @@ h2 {
 
   .service-point-map {
     padding-left: inherit;
+    margin-top: auto;
   }
 
   .railway-grid {
@@ -1986,6 +1993,7 @@ h2 {
     grid-template-areas:
       "service-point-header service-point-header"
       "service-point-man service-point-man"
+      "service-point-text service-point-text"
       "service-point-map statistic-service-point"
       "service-point-card service-point-card"
       "service-point-download service-point-download";
