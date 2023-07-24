@@ -1433,6 +1433,10 @@ h2 {
   margin-bottom: 18px;
 }
 
+.text-page:last-child {
+  margin-bottom: 0px;
+}
+
 .ul-style {
   color: #000;
   font-size: 20px;
@@ -2064,6 +2068,11 @@ h2 {
     line-height: 22px;
     margin-bottom: 12px;
   }
+
+  .text-page:last-child {
+    margin-bottom: 0px;
+  }
+
   .ul-style {
     font-size: 16px;
     line-height: 22px;
