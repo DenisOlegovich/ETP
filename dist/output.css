@@ -341,9 +341,9 @@ ul,
 menu {
   /* list-style: none; */
   margin: 0;
-  margin-left: 15px;
+  margin-left: 0px;
   padding: 0;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 /*
@@ -1007,6 +1007,13 @@ h2 {
   color: #666f78;
 }
 
+.heading-app-h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px; /* 128.571% */
+  margin-bottom: 24px;
+}
+
 .card {
   color: #000;
   font-size: 20px;
@@ -1417,6 +1424,16 @@ h2 {
   margin-top: 24px;
 }
 .text-page {
+  color: #000;
+  font-size: 20px;
+  font-family: MoscowSans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
+.ul-style {
   color: #000;
   font-size: 20px;
   font-family: MoscowSans;
@@ -1932,6 +1949,21 @@ h2 {
       "statistic-parking statistic-parking"
       "parking-text parking-text";
   }
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    gap: 24px;
+    grid-template-areas:
+      "metro-app-header metro-app-header"
+      "metro-app-text metro-app-text"
+      "metro-app-image metro-app-image"
+      "parking-app-header parking-app-header"
+      "parking-app-text parking-app-text"
+      "parking-app-image parking-app-image"
+      "mt-app-header mt-app-header"
+      "mt-app mt-app"
+      "mt-app-text mt-app-text";
+  }
   .chatbot-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2015,6 +2047,10 @@ h2 {
     line-height: 26px; /* 128.571% */
     margin-bottom: 12px;
   }
+  .heading-app-h3 {
+    font-size: 26px;
+    line-height: 28px; /* 128.571% */
+  }
   .text-fact {
     font-size: 14px;
     line-height: 28px;
@@ -2024,6 +2060,11 @@ h2 {
     line-height: 18px;
   }
   .text-page {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+  .ul-style {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 12px;
@@ -2216,7 +2257,7 @@ a[download]::after {
   vertical-align: middle;
 }
 
-.app-btn {
+.metro-app-btn {
   width: 132px;
   height: 32px;
   appearance: none;
@@ -2235,14 +2276,14 @@ a[download]::after {
   /* transition: 1s; */
 }
 
-.app-btn:hover {
+.metro-app-btn:hover {
   background-color: #000;
   color: White;
 }
-.app-btn:hover .svg-path-black {
+.metro-app-btn:hover .svg-path-black {
   fill: white;
 }
-.app-btn:hover .svg-path-white {
+.metro-app-btn:hover .svg-path-white {
   fill: #424344;
 }
 .parking-app-image {
@@ -2254,6 +2295,7 @@ a[download]::after {
   position: relative;
   border-radius: 8px;
   border: 1px solid #f5f6f7;
+  color: #ffffff;
 }
 .parking-app-image-header {
   font-size: 40px;
@@ -2264,4 +2306,40 @@ a[download]::after {
   font-size: 16px;
   line-height: 22px;
   padding-top: 8px;
+}
+.parking-app-btn {
+  width: 132px;
+  height: 32px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #558639;
+  color: #ffffff;
+  padding: 3px 10px 3px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: 1s; */
+}
+.parking-app-btn:hover {
+  background-color: #000;
+  color: White;
+}
+.parking-app-btn:hover .svg-path-black {
+  fill: white;
+}
+.parking-app-btn:hover .svg-path-white {
+  fill: #424344;
+}
+ul li:before {
+  content: "—";
+  color: #a2a9b1;
+  position: relative;
+  left: -5px;
+}
+.ol-style {
+  /* list-style: none; */
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  padding-left: 35px;
 }
